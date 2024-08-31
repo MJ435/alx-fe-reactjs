@@ -1,8 +1,10 @@
+import React from 'react';
+
 function About() {
   return (
-    <div style={{ padding: '20px', backgroundColor: '#f5f5f5' }}>
-      <h1 style={{ color: 'navy' }}>About Us</h1>
-      <p style={{ color: '#333', lineHeight: '1.5' }}>
+    <div style={{ padding: '20px' }}>
+      <h1>About Us</h1>
+      <p>
         Our company has been providing top-notch services since 1990. We
         specialize in various fields including technology, marketing, and
         consultancy.
@@ -12,5 +14,6 @@ function About() {
 }
 
 export default About;
+
 
   
